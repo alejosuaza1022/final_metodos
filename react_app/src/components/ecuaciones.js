@@ -220,9 +220,9 @@ export default function Ecuaciones() {
                                             autoFocus
                                             placeholder="Result"
                                             multiline
-                                            value={"x:[ " + result.x + " ] y:[ " + result.y + " ]"}
-                                            rows={2}
-                                            rowsMax={4}
+                                            value={"x:[ " + result.x + " ] \n \n \n \n y:[ " + result.y + " ]"}
+                                            rows={10}
+                                            rowsMax={50}
                                             focused
                                         />
 

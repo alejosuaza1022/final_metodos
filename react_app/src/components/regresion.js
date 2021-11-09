@@ -46,8 +46,8 @@ export default function Regresion() {
             return;
         }
         try{      
-            x = [...x.split(",").map((e) => parseInt(e))]
-            y = [...y.split(",").map((e) => parseInt(e))]
+            x = [...x.split(",").map((e) => parseFloat(e))]
+            y = [...y.split(",").map((e) => parseFloat(e))]
         }catch(e){
         }
    
@@ -159,8 +159,8 @@ export default function Regresion() {
                                             placeholder="Result"
                                             multiline
                                             value={`R: ${result.R}, intercepto: ${result.intercepto}, pendiente:${result.pendiente}`}
-                                            rows={2}
-                                            rowsMax={4}
+                                            rows={10}
+                                            rowsMax={50}
                                             focused
                                         />
 
