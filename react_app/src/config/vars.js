@@ -1,4 +1,4 @@
 
-const URL = "http://54.236.229.99:5002"
+const URL = "http://54.84.111.28:5002"
 
 export { URL }
